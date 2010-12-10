@@ -47,7 +47,7 @@ background: #000000;
 padding-top:0%;	
 padding-right:0%;	
 padding-bottom:0%;	
-padding-left:80%;	
+padding-left:90%;	
 }
 
 #innhold {
@@ -84,40 +84,47 @@ vertical-align:bottom;
 p
 {
 font-family:Arial ,Georgia, sans-serif;
-font-size: 125%;
+font-size: 150%;
 }
 
 
 h1 { 
 	padding: 5% 0% 0% 0%;
-   	color: #000000;
-	font-family:"Courier New", Courier New, monospace;
+   	color: #000099;
+	font-family:Arial ,Georgia, sans-serif;
 	font-size: 300%;	
 	}
 
 
 h2 {
-	color: #000000;
+	color: #000066;
 	font-family:Arial ,Georgia, sans-serif;
 	font-size: 200%;
 	padding: 0% 0% 3% 0%;
-	text-decoration: underline;
-	
+	text-decoration: underline;	
 	}
 
-
 h3 {
-	color: #000000;
-	font-family:"Courier New", Courier New, monospace;
+	color: #000010;
+	font-family:Arial ,Georgia, sans-serif;
 	font-size: 150%;
 	padding: 0% 0% 5% 0%;
 	}
 h4 {
 	color: #FFFFFF;
-	font-family:"Courier New", Courier New, monospace;
+	font-family:Arial ,Georgia, sans-serif;
 	font-size: 75%;
 	}
 
+h5 {
+	color: #000001;
+	font-family:Arial ,Georgia, sans-serif;
+	font-size: 100%;
+	padding: 0% 0% 0% 0%;
+	}	
+	
+	
+	
 a{
 	font-family:Georgia, Georgia, serif;
 	color: #ffffff;

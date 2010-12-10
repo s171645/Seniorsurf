@@ -8,28 +8,32 @@ include "topp.html";
 			 <h2> Sitemap </h2>
 		
 		
-Hjem:<br>
+<p><strong>Hjem:</strong> </p>
 <p><a href="index.php" > Index </a> </p>
-
-Video leksjoner:<br>
+<br>
+<p><strong>Video leksjoner:</strong></p>
 <p><a href="video.php" > Video leksjoner  </a> </p>
-
-Lenker: <br>
+<p><a href="google.php" > Videoklipp om hvordan man bruker Google </a> </p>
+<p><a href="gulesider.php" > Videoklipp om hvordan man bruker Gulesider</a> </p>
+<p><a href="hotmail.php" > Videoklipp om hvordan man oppretter Hotmail konto </a> </p>
+<p><a href="facebook.php" > Videoklipp om hvordan man oppretter Facebook konto </a> </p>
+<br>
+<p><strong>Lenker: </strong> </p>
 <p><a href="linker.php" > Lenker </a> </p>
-
-L﻿ær å bruke internett:<br>
+<br>
+<p><strong>L﻿ær å bruke internett: </strong> </p>
 <p><a href="internett.php" > Hva er Internett?  </a> </p>
 <p><a href="Internettsbegreper.php" > Viktige begreper om internett  </a> </p>
 <p><a href="Sokemotor.php" > Hvordan søke på Internett?  </a> </p>
 <p><a href="virus.php" > Virus </a> </p>
- 
-Om siden: <br>
+<br>
+<p><strong>Om siden: </strong> </p>
 <p><a href="omsiden.php" > Om siden </a> </p>
-
-Kontakt oss: <br>
+<br>
+<p><strong>Kontakt oss: </strong> </p>
 <p><a href="kontakt.php" > Kontakt oss </a> </p>
-
-Gjestebok: <br>
+<br>
+<p><strong>Gjestebok: </strong></p>
 <p><a href="gjestebok.php" > Gjestebok </a> </p>
  
 			  </div>

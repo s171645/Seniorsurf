@@ -2,7 +2,7 @@
 include "topp.html";
 ?>	
 
-<p><a href="skrivgjestebok.php" ><strong> Trykk her for å skrive. </a></strong></p> 
+<p><a href="skrivgjestebok.php" ><strong> Trykk her for å skrive.</strong> </a> </p> 
 
 
 <?php
@@ -24,6 +24,7 @@ else {
 	$linje = $_POST ['navn'] . "***---***";
 	$linje .= $_POST ['hilsen'] . "***---***";
 	$linje .= $_POST ['www'] . "***---***";
+	$linje .= "<hr />";
 	$linje = str_replace("\r\n", "<br />", $linje);
 	$linje = htmlentities ($linje);
 	fwrite($fp, $linje);

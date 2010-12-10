@@ -10,7 +10,7 @@ include "topp.html";
 			 	
 		<p>Dette er en nettside for eldre som vil l﻿ære å bruke internett </p> 
 		
- 	
+<br> 	
 <ul>
 
 <li><p> Klikk på <a href="video.php" > video leksjoner </a> for video der det vises hvordan en bruker diverse nyttige tjenester. </p> </li>
@@ -22,9 +22,9 @@ include "topp.html";
 <li><p> Klikk på <a href="gjestebok.php" > gjestebok </a> for å lese hva andre har skrevet og skrive inn.  </p> </li>
 
 </ul>
-
-<p>Bruk gjerne denne siden som et startside for å lære eller som en<a href="http://en.wikipedia.org/wiki/Web_portal" target="_blank"> portal.</a> </p> 	  
-	
+<br> 
+<p>Bruk gjerne denne siden som et startside for å lære eller som en<a href="http://en.wikipedia.org/wiki/Web_portal"> portal.</a> </p> 	  
+<br> 	
 <p> Hvis du har forslag til hvordan vi kan forbedre denne tjenesten, send oss en e-mail ved å klikke på <a href="kontakt.php" > kontakt oss. </a></p>
 			 
 

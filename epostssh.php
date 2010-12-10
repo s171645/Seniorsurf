@@ -1,7 +1,7 @@
 <?php
-include "topp.html";
+include "toppssh.html";
 ?>
-				<!-- BrÃ¸dtekst -->
+				<!-- Brødtekst -->
 			 
 				<div id="main"> 
 <?php
@@ -20,7 +20,6 @@ $melding .= "Alder : ".$_REQUEST["Alder"]. "\r\n";
 $melding .= "Epost : ".$_REQUEST["Epost"]. "\r\n";
 $melding .= "Din beskjed : ".$_REQUEST["Kommentar"]. "\r\n";
 
-
 setlocale(LC_TIME,"no_NO");
 date_default_timezone_set("Europe/Oslo");
 echo strftime("I dag er det %d %B %Y kl %H:%M "); 
@@ -30,12 +29,11 @@ $til  = 'vijitharan91@live.no';
 if (mail($til, "Fra Seniorsurf skjema", $melding)) {
 print ( "Mailen er sendt \n" );
 } 
- else { print ( "En feil oppstod ved sending av mail, GÃ¥ tilbake og send pÃ¥ nytt.\n");
+ else { print ( "En feil oppstod ved sending av mail, Gå tilbake og send på nytt.\n");
 }
-
-
 ?>
 </div>
+
 <?php
-include "bunn.html";
+include "bunnssh.html";
 ?>
