@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Senior surf</title> 
+
+<link rel="styleSheet" type="text/css" href="surf.css" title="Standard CSS" />
+
+<script type="text/javascript"> 
+ 
+   function setTextSize(size) { 
+                 
+                var a = '10px'; // LITEN SKRIFT 
+                var b = '16px'; // MIDDELS SKRIFT 
+                var c = '24px'; // STOR SKRIFT 
+                 
+                if (size === 'small') { 
+                    size = a; 
+                } else if (size === 'large') { 
+                    size = c; 
+                } else { 
+                    size = b; 
+                } 
+                 
+                document.getElementById('innhold').style.fontSize = size;      
+		}       
+ </script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-19885357-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>  
+ </head>
+
+<body>
+
+									<!-- HEADER -->
+<div id="container"> 
+ <div id="header">
+  <h1> 
+	 Senior Surf 
+    </h1>
+     </div>
+	 
+		  
+									<!-- Meny -->
+		 <div id="meny">  
+	  	 <div class="meny1"> <div class="meny2"> <div class="meny3"> 
+	     <span style="padding : 4%;">	    
+	  <a href="index.php" ><strong> Startsiden </strong> </a>
+	 	 </span>
+	     <span style="padding : 4%;">
+	  <a href="video.php" ><strong> Video leksjoner </strong> </a>
+	  	 </span>
+		 <span style="padding : 4%;">
+	  <a href="linker.php" ><strong> Lenker </strong> </a>
+	  	 </span>
+	     <span style="padding : 4%;">
+   	  <a href="undersider.php" ><strong> Lær å bruke internett </strong> </a>
+   	 	 </span>
+ 		<span style="padding : 4%;">
+   	  <a href="visgjestebok.php" ><strong>Se Gjestebok </strong> </a>
+		  </div> 
+		   </div> 
+		    </div> 
+		     </div>				
+
+<div id= "skrift">
+<p>Skrift</p>				
+<a href="javascript:void(0);" onclick="setTextSize('small'); return false;" style="font-size:15px;">A</a>
+<a href="javascript:void(0);" onclick="setTextSize('medium'); return false;" style="font-size:20px;">A</a>
+<a href="javascript:void(0);" onclick="setTextSize('large'); return false;" style="font-size:25px;">A</a>
+ </div>
+  
+  <div id="innhold">
+
