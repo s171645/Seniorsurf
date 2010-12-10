@@ -6,15 +6,29 @@ include "topp.html";
 				<!-- Brødtekst -->
 			 
 				<div id="main"> 
-			 	<h2> Seniorsurf  </h2>
+			 	<h2> Nettside innhold:  </h2>
 			 	
-		<p>Dette er en guideside for eldre som vil l﻿ære om internett. </p> 
-		<p>Bruk Firefox </p> <br>
+		<p>Dette er en nettside for eldre som vil l﻿ære å bruke internett </p> 
 		
-<p> <strong> Nyheter: </strong></p> <br>
-<p> Klikk og se <a href="video.php" > video leksjoner? </a> </p> 			  
-<p> Har du tips så send oss gjerne ved å klikke her <a href="kontakt.php" > klikke her? </a></p>
-			  </div>
+ 	
+<ul>
+
+<li><p> Klikk på <a href="video.php" > video leksjoner </a> for video der det vises hvordan en bruker diverse nyttige tjenester. </p> </li>
+
+<li><p> Klikk på <a href="linker.php" > lenker </a> for en liste over lenker til nyttige nettsteder. </p> </li>
+
+<li><p> Klikk på <a href="undersider.php" > lær å bruke internett </a> for å lese artikler og lære noen grunnleggende ting. </p> </li>
+
+<li><p> Klikk på <a href="gjestebok.php" > gjestebok </a> for å lese hva andre har skrevet og skrive inn.  </p> </li>
+
+</ul>
+
+<p>Bruk gjerne denne siden som et startside for å lære eller som en<a href="http://en.wikipedia.org/wiki/Web_portal" target="_blank"> portal.</a> </p> 	  
+	
+<p> Hvis du har forslag til hvordan vi kan forbedre denne tjenesten, send oss en e-mail ved å klikke på <a href="kontakt.php" > kontakt oss. </a></p>
+			 
+
+</div>
 
 <?php
 include "bunn.html";

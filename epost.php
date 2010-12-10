@@ -30,7 +30,7 @@ $til  = 'seniorsurf@hotmail.no';
 if (mail($til, "Fra Seniorsurf skjema", $melding)) {
 print ( "Mailen er sendt \n" );
 } 
- else { print ( "En feil oppstod ved sending av mail, G� tilbake og send på nytt.\n");
+ else { print ( "En feil oppstod ved sending av mail, Gå tilbake og send på nytt.\n");
 }
 
 

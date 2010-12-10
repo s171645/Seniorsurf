@@ -2,37 +2,64 @@
 include "topp.html";
 ?>	
 
+<p><a href="skrivgjestebok.php" ><strong> Trykk her for å skrive. </a></strong></p> 
 
 
+<?php
 
-<h2>Legg opp dine egne tips eller erfaringer!</h2>
-<p> <strong> Det du skriver her vil bli lagt opp på siden </strong> </p>
-
-
-<form action="visgjestebok.php" method="post">
-<table border="0">
-<tr>
-	<td><width="150"><p> Skriv inn navnet ditt</p> </td>
-	<td><input type="text" name="navn" value="Anonym"> </td>
-	</tr>
-<tr>	
-	<td><width="150"> <p>Skriv ditt bidrag her: </p></td>
-	<td><textarea name="hilsen" cols="50" rows="10">
-	</textarea></td>
-</tr>
-
-<tr>
-	<td><width="150"><p>URl hjemmesiden din (ikke nødvendig)</p> </td>
-	<td><input type="text" name="www" size="30">  </td>
-</tr>
-
-<tr>
-	<td> <p> Trykk her når du er ferdig:  <A href="visgjestebok.php"> <input type="submit" value="Ferdig" align="right"> </a> </p> </td>
-</tr>
+if ($_POST ['hilsen'] == "") {
+	echo "Feil, Du har ikke skrivet inn noe.";
+}
 
 
-</table>
-</form>
+else {
+	$fp=fopen("gjester.txt", "a+") ; 
+	if ($fp==false)
+	{
+	echo "Feil, vennligst pr�v seinere :( (Klarte ikke �pne fil).";
+	}
+
+	else
+	{
+	$linje = $_POST ['navn'] . "***---***";
+	$linje .= $_POST ['hilsen'] . "***---***";
+	$linje .= $_POST ['www'] . "***---***";
+	$linje = str_replace("\r\n", "<br />", $linje);
+	$linje = htmlentities ($linje);
+	fwrite($fp, $linje);
+	fwrite($fp, "\n");
+	fclose ($fp);
+	echo "<hr />";
+	}
+}
+?>
+
+<?php
+
+$matrise=file("gjester.txt");
+
+$matrise = array_reverse($matrise);
+
+
+foreach ($matrise as $linje) 
+	{
+	$neste = explode("***---***", $linje) ;
+	echo "<h2>" . $neste[0] . "</h2>";
+	echo "<blockquote>" . $neste[1] . "</blockquote>";
+	echo "<p>" . $neste[2] . "</p>";
+	
+	
+	}
+	
+if ($matrise = true)
+{
+	echo " Den ".date("d-m-Y") ;
+	echo "<hr />";
+}
+
+
+?>
+
 
 
 <?php
