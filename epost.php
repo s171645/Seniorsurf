@@ -25,7 +25,7 @@ setlocale(LC_TIME,"no_NO");
 date_default_timezone_set("Europe/Oslo");
 echo strftime("I dag er det %d %B %Y kl %H:%M "); 
 echo "<br>";
-$til  = 'vijitharan91@live.no';
+$til  = 'seniorsurf@hotmail.no';
 
 if (mail($til, "Fra Seniorsurf skjema", $melding)) {
 print ( "Mailen er sendt \n" );

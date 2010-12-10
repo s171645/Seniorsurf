@@ -90,34 +90,36 @@ font-size: 150%;
 
 h1 { 
 	padding: 5% 0% 0% 0%;
-   	color: #000099;
-	font-family:Arial ,Georgia, sans-serif;
+   	color: #000000;
+	font-family:"Courier New", Courier New, monospace;
 	font-size: 300%;	
 	}
 
 
 h2 {
-	color: #000066;
+	color: #000000;
 	font-family:Arial ,Georgia, sans-serif;
 	font-size: 200%;
 	padding: 0% 0% 3% 0%;
-	text-decoration: underline;	
+	text-decoration: underline;
+	
 	}
 
+
 h3 {
-	color: #000010;
-	font-family:Arial ,Georgia, sans-serif;
+	color: #000000;
+	font-family:"Courier New", Courier New, monospace;
 	font-size: 150%;
 	padding: 0% 0% 5% 0%;
 	}
 h4 {
 	color: #FFFFFF;
-	font-family:Arial ,Georgia, sans-serif;
+	font-family:"Courier New", Courier New, monospace;
 	font-size: 75%;
 	}
 
 h5 {
-	color: #000001;
+	color: #000000;
 	font-family:Arial ,Georgia, sans-serif;
 	font-size: 100%;
 	padding: 0% 0% 0% 0%;
