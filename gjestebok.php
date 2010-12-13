@@ -7,12 +7,15 @@ include "topp.html";
 
 <?php
 
-if ($_POST ['hilsen'] == "") {
-	echo "Feil, Du har ikke skrivet inn noe.";
-}
+	if(isset($_POST["sendt"])) {
+             if ($_POST ['hilsen'] == "") {
+                echo "Feil, fikk ikke lagt inn. Du må skrive noe i den store tekst boksen.";
+              }
 
 
 else {
+
+
 	$fp=fopen("gjester.txt", "a+") ; 
 	if ($fp==false)
 	{
@@ -29,9 +32,11 @@ else {
 	$linje = htmlentities ($linje);
 	fwrite($fp, $linje);
 	fwrite($fp, "\n");
+	fwrite($fp, "Den ".date("d-m-Y")) ;
+	fwrite($fp, "<hr/>");
 	fclose ($fp);
-	echo "<hr />";
-	}
+}	
+}
 }
 ?>
 
@@ -52,11 +57,6 @@ foreach ($matrise as $linje)
 	
 	}
 	
-if ($matrise = true)
-{
-	echo " Den ".date("d-m-Y") ;
-	echo "<hr />";
-}
 
 
 ?>

@@ -13,9 +13,18 @@ include "topp.html";
   <param name="allowscriptaccess" value="always">
   <embed src="http://www.youtube.com/v/8rlEj6qAIoE?fs=1&amp;hl=nb_NO&amp;rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="560" height="340">
 </object>
-<p>Gå inn på www.google.no Skriv inn ordet du skal søke og på neste side får du treff.</p>
 
-<p>Link til <a href="http://www.google.no">Google </a> </p>
+<ol>
+ <li>
+<p>Gå inn på <a href="http://www.google.no">www.google.no</a> </p>
+   </li>
+    <li> 
+<p>Skriv inn ordet du skal søke og på neste side får du en liste med linker.</p>
+   </li>
+    <li> 
+<p>Trykk på den linken du vil lese om. Vis du ikke vil lese om det så går du et hakk tilbake søker på nytt eller klikker på linkene under.</p>
+	</li>
+	</ol>
 </div>
 
 <?php

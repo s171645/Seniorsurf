@@ -4,7 +4,7 @@
   }
 
 body { 
-	background-color: #000000; 
+	background-color: #111111; 
 	}
 
 html {
@@ -31,36 +31,38 @@ html {
 
 
 #meny {
-margin: 0% 0% 1% 0%;
-padding:1% 0% 1% 3%;
-background: #0099cc;
-}
+	margin: 0% 0% 1% 0%;
+	padding:1% 0% 1% 3%;
+	background: #0099cc;
+	border-right: 1px solid black;
+
+	}
 
 #linkboks {
-margin: 0% 0% 0% 0%;
-padding:0% 0% 0% 0%;
-background: #000000;
-}
-
+	margin: 0% 0% 0% 0%;
+	padding:0% 0% 0% 0%;
+	background: #000000;
+	}
+	
 
 #skrift {
-padding-top:0%;	
-padding-right:0%;	
-padding-bottom:0%;	
-padding-left:90%;	
-}
+	padding-top:0%;	
+	padding-right:0%;	
+	padding-bottom:0%;	
+	padding-left:70%;	
+	}
 
 #innhold {
-border-bottom:1px solid #000000;	
-}
+	border-bottom:1px solid #000000;	
+	}
 	
 
 #fontsizer {
-font-size:1.1em;
-margin-right:1em;
-text-align:right;
-vertical-align:bottom;
-}
+	font-size:1.1em;
+	margin-right:1em;
+	text-align:right;
+	vertical-align:bottom;
+	}
 
  
 #main { 
@@ -90,10 +92,11 @@ font-size: 150%;
 
 h1 { 
 	padding: 5% 0% 0% 0%;
-   	color: #000099;
-	font-family:Arial ,Georgia, sans-serif;
+   	color: #000000;
+	font-family:"Courier New", Courier New, monospace;
 	font-size: 300%;	
 	}
+
 
 
 h2 {

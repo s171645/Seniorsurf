@@ -13,10 +13,18 @@ include "topp.html";
   <param name="allowscriptaccess" value="always">
   <embed src="http://www.youtube.com/v/qVennAYBz-I?fs=1&amp;hl=nb_NO&amp;rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="560" height="340">
 </object>
-<p>Gå inn på www.gulesider.no Skriv inn det du skal søke og under det får du treff.</p>
 
-<p>Link til <a href="http://www.gulesider.no">Gulesider </a> </p>
-
+<ol>
+ <li>
+<p>Gå inn på <a href="www.gulesider.no">www.gulesider.no</a> </p>
+   </li>
+    <li> 
+<p>Skriv inn det du skal søke og under det får du treff.</p>
+   </li>
+    <li> 
+<p>Du kan skrive inn navnet, addresse eller telefonnummeret. Da får du opp de andre opplysningene og kart.</p>
+	</li>
+	</ol>
 </div>
 
 <?php

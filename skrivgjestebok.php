@@ -26,7 +26,7 @@ include "topp.html";
 	<td><input type="text" name="www" size="30">  </td>
 </tr>
 <tr>
-	<td> <p> Trykk her når du er ferdig:  <a href="gjestebok.php"> <input type="submit" value="Ferdig" align="right"> </a> </p> </td>
+	<td> <p> Trykk her når du er ferdig:  <a href="gjestebok.php"> <input type="submit" name="sendt" value="Ferdig" align="right"> </a> </p> </td>
 </tr>
 </table>
 </form>
