@@ -36,13 +36,13 @@
 	<tr><td>OK </td><td>Aktivitetsplan </td><td>oppdattere aktivitetsplan </td><td>Kristoffer </td><td>10.12.2010 </td></tr>
 	<tr><td>OK </td><td>Ansvarskartet </td><td>oppdattere ansvarskart </td><td>Viji </td><td>13.12.2010 </td></tr> 
 	<tr><td>OK </td><td>Ferdigstilling av siden </td><td>Siden skal være ferdig </td><td>Gruppen </td><td>09.12.2010 </td></tr>     
-	<tr><td>OK </td><td>Teste </td><td>Vi som skal teste </td><td>Gruppen </td><td>09.12.2010 </td></tr>  
-	<tr><td>OK </td><td>Brukertesting </td><td>Eldre som tester ut </td><td>Viji </td><td>10.12.2010 </td></tr>  
+	<tr><td>OK </td><td>Teste </td><td>Vi som skal teste </td><td>Viji og Kristoffer </td><td>09.12.2010 </td></tr>  
+	<tr><td>OK </td><td>Oppdatere </td><td>Legge ut alt på serveren </td><td>Viji </td><td>10.12.2010 </td></tr>  
 	<tr><td>OK </td><td>Brukertesting </td><td>Eldre som tester ut </td><td>Viji </td><td>10.12.2010 </td></tr>  
 	<tr><td>IKKE OK </td><td>Prosjektdagbok 3</td><td>Notater fra møtene </td><td>Stafeni </td><td>16.11.2010 </td></tr>    
 	<tr><td>IKKE OK </td><td>Teste </td><td>Ekstra testing før levering </td><td>Gruppen </td><td>16.11.2010 </td></tr>  
 	<tr><td>IKKE OK </td><td>Sluttrapporten </td><td>Få ferdig sluttrapporten </td><td>Gruppen </td><td>16.12.2010 </td></tr>  
-	<tr><td>IKKE OK </td><td>Leveranse 3 </td><td>Laste opp dokumenter </td><td>Gruppen </td><td>17.12.2010 </td></tr>    	
+	<tr><td>IKKE OK </td><td>Leveranse 3 </td><td>Laste opp dokumenter </td><td>Gruppen </td><td>16.12.2010 </td></tr>    	
 </table>
 
 		
