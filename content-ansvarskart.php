@@ -17,9 +17,10 @@
   <tr><td width="20%">Beskrive endelig løsning </td><td>R </td><td>R </td><td>UA </td><td>R </td></tr>   
   <tr><td width="20%">Skisse til sluttrapport </td><td>R </td><td>UA </td><td>R </td><td>R </td></tr> 
   <tr><td width="20%">Begrunne designvalget </td><td>R </td><td>R </td><td>R </td><td>UA </td></tr> 
-  <tr><td width="20%">Midtveisrapport </td><td>UA </td><td>UA </td><td>UA </td><td>UA </td></tr>    
-  <tr><td width="20%">Oppdatere Seniorsurf </td><td>R </td><td>R </td><td>UA </td><td>R </td></tr>   
-  <tr><td width="20%">Testing </td><td>R </td><td>R </td><td>UA </td><td>R </td></tr>  
+  <tr><td width="20%">Midtveisrapport </td><td>UA </td><td>UA </td><td>UA </td><td>UA </td></tr>
+  <tr><td width="20%">Git </td><td>R </td><td>R </td><td>UA </td><td>R </td></tr>      
+  <tr><td width="20%">Oppdatere Seniorsurf </td><td>R </td><td>R </td><td>UA </td><td>UA </td></tr>   
+  <tr><td width="20%">Testing </td><td>R </td><td>UA </td><td>UA </td><td>UA </td></tr>  
   <tr><td width="20%">Sluttrapport </td><td>UA </td><td>UA </td><td>UA </td><td>UA </td></tr>   
  </table>
 		
