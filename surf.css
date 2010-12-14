@@ -70,6 +70,21 @@ html {
 	padding: 0% 7% 0% 7%;
 	}
 
+#katogori {
+	margin: 0% 0% 3% 0%;
+	padding: 2% 2% 2% 2%;
+	font-size: 150%;
+	border: 2px solid black;
+	}
+
+.kat A:link {
+text-decoration: none;
+word-spacing:5%;
+}
+
+
+
+
 #footer {
 	
 	margin: 0% 0% 0% 0%;
