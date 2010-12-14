@@ -21,10 +21,7 @@ include "topp.html";
 	<td><textarea name="hilsen" cols="50" rows="10">
 	</textarea></td>
 </tr>
-<tr>
-	<td><width="150"><p>URl hjemmesiden din (ikke nødvendig)</p> </td>
-	<td><input type="text" name="www" size="30">  </td>
-</tr>
+
 <tr>
 	<td> <p> Trykk her når du er ferdig:  <a href="gjestebok.php"> <input type="submit" name="sendt" value="Ferdig" align="right"> </a> </p> </td>
 </tr>
