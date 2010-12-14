@@ -1,23 +1,21 @@
 * 	{
   margin: 0;
   padding: 0;
-  }
+}
 
 body { 
 	background-color: #111111; 
-	}
+}
 
 html {
   	font-size: 100%;
-	}
+}
 
 #container {
 		padding: 0% 0% 0% 0%;
 		margin: -1% 8% 2% 8%;
 		background: #ffffff;
-		}
-	
-	
+		}	
 
 #header { 
  	padding: 0% 0% 2.5% 5%;
@@ -29,21 +27,18 @@ html {
 	}
 
 
-
 #meny {
 	margin: 0% 0% 1% 0%;
 	padding:1% 0% 1% 3%;
 	background: #0099cc;
 	border-right: 1px solid black;
-
 	}
 
 #linkboks {
 	margin: 0% 0% 0% 0%;
 	padding:0% 0% 0% 0%;
 	background: #000000;
-	}
-	
+	}	
 
 #skrift {
 	padding-top:0%;	
@@ -54,8 +49,7 @@ html {
 
 #innhold {
 	border-bottom:1px solid #000000;	
-	}
-	
+	}	
 
 #fontsizer {
 	font-size:1.1em;
@@ -63,11 +57,21 @@ html {
 	text-align:right;
 	vertical-align:bottom;
 	}
-
  
 #main { 
 	margin: 0% 0% 30% 0%;
 	padding: 0% 7% 0% 7%;
+	}
+
+#undersider {
+	margin: 0% 3% 2% 0%;
+	padding: 2% 7% 2% 7%;
+	font-size: 150%;
+	border: 2px solid black;	
+	}
+
+	.under A:link {
+	text-decoration: none;	
 	}
 
 #katogori {
@@ -78,12 +82,9 @@ html {
 	}
 
 .kat A:link {
-text-decoration: none;
-word-spacing:5%;
-}
-
-
-
+	text-decoration: none;
+	word-spacing:0.5em;
+	}
 
 #footer {
 	
@@ -95,8 +96,7 @@ word-spacing:5%;
 #validate { 
 	padding: 0% 0% 0% 0%;
 	margin: 1% 8% 0% 8%;
-	
-}
+	}
  
 p
 {
@@ -104,50 +104,42 @@ font-family:Arial ,Georgia, sans-serif;
 font-size: 150%;
 }
 
-
-h1 { 
+h1  { 
 	padding: 5% 0% 0% 0%;
    	color: #000000;
 	font-family:"Courier New", Courier New, monospace;
 	font-size: 300%;	
-	}
-
-
-
-h2 {
-	color: #000066;
+}
+h2  {
+	color: #000006;
 	font-family:Arial ,Georgia, sans-serif;
 	font-size: 200%;
 	padding: 0% 0% 3% 0%;
 	text-decoration: underline;	
-	}
-
-h3 {
+}
+h3  {
 	color: #000010;
 	font-family:Arial ,Georgia, sans-serif;
 	font-size: 150%;
 	padding: 0% 0% 5% 0%;
-	}
-h4 {
+}
+h4  {
 	color: #FFFFFF;
 	font-family:Arial ,Georgia, sans-serif;
 	font-size: 75%;
-	}
-
-h5 {
+}
+h5  {
 	color: #000001;
 	font-family:Arial ,Georgia, sans-serif;
 	font-size: 100%;
 	padding: 0% 0% 0% 0%;
-	}	
-	
-	
+}	
 	
 a{
 	font-family:Georgia, Georgia, serif;
 	color: #ffffff;
 	text-shadow: 0em 0.2em 0.3em #888888;
-	}
+}
 
 
 .meny1 A:link {
@@ -162,23 +154,18 @@ color: #ffffff;
 }
 
 .meny3 a:hover {
-      color:#ff0000;
-   }
-
+color:#ff0000;
+}
 
 
 A:link {
-
 color: #0000ff;
 }
 
 A:visited {
-
 color: #0000ff;
 }
 
-
-
 a:hover {
-      color:#ff0000;
-   }
+color:#ff0000;
+}

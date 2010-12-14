@@ -8,14 +8,22 @@ include "topp.html";
 	
 												<!-- Brødtekst -->
 			 <div id="main"> 
-			 <h2> Undersider </h2>
-		
-			<p><a href="internett.php" > Hva er Internett? </a> </p> 
-			<p><a href="Internettsbegreper.php" > Viktige begreper om internett </a> </p>
-			<p><a href="Sokemotor.php" > Hvordan søke på Internett? </a> </p>
-			<p><a href="virus.php" > Virus </a> </p>			 
+			<div class="under"> 
+			 <h2>Artikkeler </h2>
+			<div id="undersider">		
+			<a href="internett.php" > Hva er Internett? </a> 
+				</div>
+			<div id="undersider">
+			<a href="Internettsbegreper.php" > Viktige begreper om internett </a> 
+			</div>
+			<div id="undersider">
+			<a href="Sokemotor.php" > Hvordan søke på Internett? </a> 
+			</div>
+			<div id="undersider">
+			<a href="virus.php" > Virus </a> 			 
 			  </div>
-			  
+			</div>
+			  </div>
 	<?php
 include "bunn.html";
 ?>

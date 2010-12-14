@@ -7,12 +7,13 @@ include "topp.html";
 			 <h2> Facebook </h2>
 
 <p>Video som viser hvordan man oppretter en facebook-konto</p>
-<object data="http://www.youtube.com/v/PbtZmL64Q5A?fs=1&amp;hl=nb_NO&amp;rel=0" width="560" height="340" alt="Video som viser hvordan man opretter facebook konto">
+<object data="http://www.youtube.com/v/PbtZmL64Q5A?fs=1&amp;hl=nb_NO&amp;rel=0" width="560" height="340">
 	<param name="movie" value="">
   <param name="allowFullScreen" value="true">
   <param name="allowscriptaccess" value="always">
   <embed src="http://www.youtube.com/v/PbtZmL64Q5A?fs=1&amp;hl=nb_NO&amp;rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="560" height="340">
 </object>
+
 <p><strong> NB. for å få en facebook konto, må du først ha en e-post konto. Se <a href="hotmail.php">hotmail</a> for å få satt opp dette. </strong> </p>
 <ol>
  <li>

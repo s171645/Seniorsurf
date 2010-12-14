@@ -25,7 +25,7 @@ include "topp.html";
 <br> 
 <p>Bruk gjerne denne siden som et startside for å lære eller som en<a href="http://en.wikipedia.org/wiki/Web_portal"> portal.</a> </p> 	  
 <br> 	
-<p> Hvis du har forslag til hvordan vi kan forbedre denne tjenesten, send oss en e-mail ved å klikke på <a href="kontakt.php" > kontakt oss. </a></p>
+<p> Hvis du har forslag til hvordan vi kan forbedre denne tjenesten, send oss en e-mail ved å klikke på <a href="http://student.iu.hio.no/~s171645/kontaktssh.php" > kontakt oss. </a></p>
 			 
 
 </div>

@@ -9,7 +9,8 @@ include "topp.html";
 
 												<!-- Brødtekst -->
 			 <div id="main"> 
-			 <h2> Lenker </h2>
+	<h2> Lenker </h2>
+<img src="sosial.png" alt="ikon" />
 <strong>Nyheter:</strong>
 <div id="katogori">
 <div class="kat">
@@ -30,8 +31,8 @@ include "topp.html";
 </div>
 
 
-
-<strong>Epost:</strong>
+<img src="mail.png" alt="mail ikon" />
+<strong>Epost:</strong> 
 <div id="katogori">
 <div class="kat">
 <strong>Web baserte:</strong>
@@ -49,7 +50,7 @@ include "topp.html";
 </div>
 </div>
 
-
+<img src="hjerte.png" alt="hjerte ikon" />
 <strong>informasjonsteknologi:</strong>
 <div id="katogori">
 <div class="kat">
@@ -69,6 +70,7 @@ include "topp.html";
 </div>
 </div>
 
+<img src="fly.png" alt="fly ikon" />
 <strong>Reise:</strong>
 <div id="katogori">
 <div class="kat">
@@ -81,13 +83,11 @@ include "topp.html";
 <a href="http://www.sas.no/no/?vst=true">SAS </a>
 <a href="http://www.norwegian.com/flight/tips/">Norwegian </a> 
 <a href="http://www.ryanair.com/en">RyanAir </a> 
-
-
 </div>
 </div>
 
 
-
+<img src="stjerne.png" alt="stjerne ikon" />
 <strong>Diverse:</strong>
 <div id="katogori">
 <div class="kat">
@@ -102,6 +102,7 @@ include "topp.html";
 </div>
 </div>
 
+<img src="pluss.png" alt="pluss ikon" />
 <strong>Antivirus programvare(Du skal kun ha et antivirus program installert): </strong>
 <div id="katogori">
 <div class="kat"> 
@@ -111,6 +112,7 @@ include "topp.html";
 </div>
 </div>
 <p> Vi anbefaler også å ta en tur innom <a href="http://www.seniornett.no/Lenker">Seniornett sine lenker</a> </p>
+
 
 			  </div>
 			  
