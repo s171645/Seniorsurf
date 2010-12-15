@@ -1,14 +1,14 @@
 <?php
-include "topp.html";
+include "toppssh.html";
 ?>	
 
-			<!-- BrÃ¸dtekst -->
+			<!-- Brødtekst -->
 					
 			 <div id="main"> 
 
 <h2>Legg opp dine egne tips eller erfaringer!</h2>
-<p> Her kan du legge opp dine lÃ¸sninger pÃ¥ data problemer du har hatt, sÃ¥ andre som kanskje sliter med det samme kan lese! </p>
-<p> <strong> Det du skriver her vil bli lagt opp pÃ¥ siden </strong> </p>
+<p> Her kan du legge opp dine løsninger på data problemer du har hatt, så andre som kanskje sliter med det samme kan lese! </p>
+<p> <strong> Det du skriver her vil bli lagt opp på siden </strong> </p>
 
 
 <form action="gjestebok.php" method="post">
@@ -24,7 +24,7 @@ include "topp.html";
 </tr>
 
 <tr>
-	<td> <p> Trykk her nÃ¥r du er ferdig:  <a href="gjestebok.php"> <input type="submit" name="sendt" value="Ferdig" align="right"> </a> </p> </td>
+	<td> <p> Trykk her når du er ferdig:  <a href="gjestebok.php"> <input type="submit" name="sendt" value="Ferdig" align="right"> </a> </p> </td>
 </tr>
 </table>
 </form>
@@ -32,6 +32,6 @@ include "topp.html";
 </div>
 
 <?php
-include "bunn.html";
+include "bunnssh.html";
 ?>	
 

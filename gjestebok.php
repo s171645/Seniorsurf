@@ -1,8 +1,8 @@
 <?php
-include "topp.html";
+include "toppssh.html";
 ?>	
 <div id="main".php>
-<p><a href="skrivgjestebok.php" ><strong> Trykk her for Ã¥ skrive inn ditt eget bidrag.</strong> </a> </p> 
+<p><a href="skrivgjestebok.php" ><strong> Trykk her for å skrive inn ditt eget bidrag.</strong> </a> </p> 
 
 
 <?php
@@ -53,6 +53,6 @@ foreach ($matrise as $linje)
 </div>
 
 <?php
-include "bunn.html";
+include "bunnssh.html";
 ?>	
 
