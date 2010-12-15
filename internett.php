@@ -21,7 +21,7 @@ include "topp.html";
 <br>  
 <p><em>En av de viktigste forutsettingene for Internett er at man deler informasjon med andre, med Internett har dette blitt mer effektivt enn med noe annet medium! </em></p>
 <br>
-<p>For å få opp siden du er ute etter må du skrive adressen i adressefeltet i nettleseren (se bilde)  Viss du ikke kan noen adresser eller ikke helt vet hvilken adresse du finner informasjonen du er ute etter bruker du en <A href=Sokemotorer.html>søkemotor.</a></p> 
+<p>For å få opp siden du er ute etter må du skrive adressen i adressefeltet i nettleseren (se bilde)  Viss du ikke kan noen adresser eller ikke helt vet hvilken adresse du finner informasjonen du er ute etter bruker du en <A href="http://www.google.no/">søkemotor.</a></p> 
 <br>
 <img src="bildea.jpg" alt="Nettside adressefelt" title="Adressefelt">
 <br>
