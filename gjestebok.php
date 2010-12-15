@@ -1,7 +1,7 @@
 <?php
 include "topp.html";
 ?>	
-
+<div id="main".php>
 <p><a href="skrivgjestebok.php" ><strong> Trykk her for å skrive inn ditt eget bidrag.</strong> </a> </p> 
 
 
@@ -50,7 +50,7 @@ foreach ($matrise as $linje)
 
 ?>
 
-
+</div>
 
 <?php
 include "bunn.html";

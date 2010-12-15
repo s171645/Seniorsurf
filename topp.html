@@ -8,7 +8,20 @@
 
 <title>Senior surf</title> 
 
-<link rel="styleSheet" type="text/css" href="surf.css" title="Standard CSS" />
+<link href="surf.css" rel="stylesheet" type="text/css" title="Standard CSS" media="screen" /> 
+<link href="surf1.css" rel="alternate stylesheet" type="text/css" title="Høykontrast CSS" media="screen" /> 
+
+
+<script type="text/javascript"> 
+function changeStyle(title) { 
+var lnks = document.getElementsByTagName('link'); 
+for (var i = lnks.length - 1; i >= 0; i--) { 
+if (lnks[i].getAttribute('rel').indexOf('style')> -1 && lnks[i].getAttribute('title')) { 
+lnks[i].disabled = true; 
+if (lnks[i].getAttribute('title') == title) lnks[i].disabled = false; 
+}}} 
+</script>
+
 
 <script type="text/javascript"> 
  
@@ -48,46 +61,64 @@
 <body>
 
 									<!-- HEADER -->
-<div id="container"> 
+
  <div id="header">
   <h1> 
 	 Senior Surf 
     </h1>
      </div>
-	 
+
 		   
 									<!-- Meny -->
 		 <div id="meny">  
 	  	 <div class="meny1"> <div class="meny2"> <div class="meny3"> 
-	     <span style="padding : 4%;">
+		<div id="menyforst">  	     
+	
 	  <a href="index.php" ><strong> Startsiden </strong> </a>
-	 	 </span>
-	     <span style="padding : 4%;">
+	 	
+		  </div> 
+		<div class="menyenkelt">  	
+	  
 	  <a href="video.php" ><strong> Video leksjoner </strong> </a>
-	  	 </span>
-		 <span style="padding : 4%;">
+	  	 
+		  </div> 
+		<div class="menyenkelt">  
+	
 	  <a href="linker.php" ><strong> Lenker </strong> </a>
-	  	 </span>
-	     <span style="padding : 4%;">
+	  
+		  </div> 
+		<div class="menyenkelt">  
+	     
    	  <a href="undersider.php" ><strong> Les og l﻿ær </strong> </a>
-   	 	 </span>
-	 	 <span style="padding : 4%;">
+   	 
+		  </div> 
+		<div class="menyenkelt">  
+	 	
    	  <a href="gjestebok.php" ><strong> Bruker innlegg </strong> </a>
-   	 	 </span>
-	     <span style="padding : 4%;">
+		  </div> 		
+		<div class="menyenkelt">  
+	  
 	 <a href="forum.php"> <strong> Forum </strong> </a>
- 	 	 </span>
+ 	 	
+		 </div> 		
 		  </div> 
 		   </div> 
 		    </div> 
 		     </div>
+		
 
+	
 <div id= "skrift">
-<h5>For å endre størrelsen så trykk under</h5> 					
+<h5>Fargevalg:
+<a href="#" onclick="changeStyle('Standard CSS'); return false;">Standard</a> 
+ 
+<a href="#" onclick="changeStyle('Høykontrast CSS'); return false;">Høykontrast</a>
+ 
+Endre skrift størrelse? trykk her: 					
 <a href="javascript:void(0);" onclick="setTextSize('small'); return false;" title="Reduser skriftstørrelse" style="font-size:15px;">A</a>
 <a href="javascript:void(0);" onclick="setTextSize('medium'); return false;" title="Normal skriftstørrelse" style="font-size:20px;">A</a>
 <a href="javascript:void(0);" onclick="setTextSize('large'); return false;" title="øke skriftstørrelse" style="font-size:25px;">A</a>
+</h5>
  </div>
   
   <div id="innhold">
-

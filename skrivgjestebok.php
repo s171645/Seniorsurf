@@ -7,6 +7,7 @@ include "topp.html";
 			 <div id="main"> 
 
 <h2>Legg opp dine egne tips eller erfaringer!</h2>
+<p> Her kan du legge opp dine løsninger på data problemer du har hatt, så andre som kanskje sliter med det samme kan lese! </p>
 <p> <strong> Det du skriver her vil bli lagt opp på siden </strong> </p>
 
 

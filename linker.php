@@ -12,7 +12,7 @@ include "topp.html";
 	<h2> Lenker </h2>
 <img src="sosial.png" alt="ikon" />
 <strong>Nyheter:</strong>
-<div id="katogori">
+<div class="katogori">
 <div class="kat">
 <a href="http://www.aftenposten.no">Aftenposten </a>  
 <a href="http://www.vg.no">VG </a> 
@@ -33,15 +33,14 @@ include "topp.html";
 
 <img src="mail.png" alt="mail ikon" />
 <strong>Epost:</strong> 
-<div id="katogori">
+<div class="katogori">
 <div class="kat">
 <strong>Web baserte:</strong>
 <a href="http://www.hotmail.com">Hotmail </a>
-<a href="https://login.yahoo.com/config/login_verify2?&.src=ym">Yahoo</a>
+<a href="https://login.yahoo.com">Yahoo</a>
 <a href="https://my.screenname.aol.com">AOL</a>
 <a href="http://www.gmail.com">Gmail </a>
-<a href="http://signup.lus.com:81/index.php/component/user/register">Lus</a>
-<a href="http://www.operamail.com/scripts/common/index.main?signin=1&lang=us">Opera</a>
+<a href="http://www.operamail.com">Opera</a>
 <hr/>
 <strong>Epost programvare:</strong>
 
@@ -52,7 +51,7 @@ include "topp.html";
 
 <img src="hjerte.png" alt="hjerte ikon" />
 <strong>informasjonsteknologi:</strong>
-<div id="katogori">
+<div class="katogori">
 <div class="kat">
 <strong>Norske:</strong>
 <a href="http://www.dinside.no/data/">DinsideData </a> 
@@ -72,7 +71,7 @@ include "topp.html";
 
 <img src="fly.png" alt="fly ikon" />
 <strong>Reise:</strong>
-<div id="katogori">
+<div class="katogori">
 <div class="kat">
 <a href="http://www.177.no/"> RuteOpplysningen177</a>
 <a href="http://www.nsb.no">NSB</a>  
@@ -89,7 +88,7 @@ include "topp.html";
 
 <img src="stjerne.png" alt="stjerne ikon" />
 <strong>Diverse:</strong>
-<div id="katogori">
+<div class="katogori">
 <div class="kat">
 <a href="http://www.gulesider.no">Gulesider </a>
 <a href="http://www.facebook.com">Facebook </a> 
@@ -104,11 +103,11 @@ include "topp.html";
 
 <img src="pluss.png" alt="pluss ikon" />
 <strong>Antivirus programvare(Du skal kun ha et antivirus program installert): </strong>
-<div id="katogori">
+<div class="katogori">
 <div class="kat"> 
-<a href="http://free.avg.com/ww-en/homepage">AVG antivirus</a> 
+<a href="http://free.avg.com/ww-en/homepage">AVG</a> 
 <a href="http://www.avast.com/en-no/index">Avast!</a>
-<a href="http://www.microsoft.com/security_essentials">Microsoft antivirus</a>
+<a href="http://www.microsoft.com/security_essentials">MicrosoftSecurity</a>
 </div>
 </div>
 <p> Vi anbefaler også å ta en tur innom <a href="http://www.seniornett.no/Lenker">Seniornett sine lenker</a> </p>

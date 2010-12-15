@@ -4,18 +4,17 @@
 }
 
 body { 
-	background-color: #111111; 
+	background-color: #ffffff; 
 }
 
 html {
   	font-size: 100%;
 }
-
-
+	
 
 #header { 
  	padding: 0% 0% 2.5% 5%;
- 	background: #ffffff;
+ 	background: #000000;
  	margin: -1% 8% 0% 8%;
  	background-image: url(bille1.png);
  	background-repeat: no-repeat;
@@ -23,37 +22,40 @@ html {
 	}
 
 
+
 #meny {
 	margin: -1% 8% 5% 8%;
 	padding:0% 0% 0% 2%;
-	background: #0099cc;
+	background: #000000;
 	
 	}
 
 .menyenkelt { 
 	     margin: 0% 0% 0% 0%;
 	     padding:2% 3.5% 2% 3.5%;
-	     background: #0099cc;
+	     background: #000000;
 	     border: 2px solid black;
 	     border-left: 0px solid black;
 	     float: left;	
-	     }
+	     }	
 
+	
 #menyforst   {
 	     
 	     margin: 0% 0% 0% 0%;
 	     padding:2% 3.5% 2% 3.5%;
-	     background: #0099cc;
+	     background: #000000;
 	     border: 2px solid black;
 	     float: left;		
 		
 	      }
 	
+	
 
 #skrift {
 	margin: -3% 8% 0% 8%;
 	padding: 4% 2% 0% 50%;
-	background: #ffffff;	
+	background: #000000;	
 	}
 
 #innhold {
@@ -70,7 +72,7 @@ html {
 #main { 
 	margin: 0% 8% 0% 8%;
 	padding: 2% 7% 20% 7%;
-	background: #ffffff;	
+	background: #000000;	
 	}
 
 #undersider {
@@ -99,88 +101,83 @@ html {
 #footer {
 	margin: 0% 8% 2% 8%;
 	padding:1% 5% 1% 5%;
-	background: #0099cc;
+	background: #000000;
 	}
 
 #validate { 
 	padding: 0% 0% 0% 0%;
-	margin: 0% 8% 2% 8%;;
+	margin: 1% 8% 0% 8%;
 	}
  
-p	{
+p
+	{
 	font-family:Arial ,Georgia, sans-serif;
+	color: #FFFF00;
 	font-size: 150%;
 	}
 
-h1  	{ 
+h1  { 
 	padding: 5% 0% 0% 0%;
-   	color: #000000;
+   	color: #FFFF01;
 	font-family:"Courier New", Courier New, monospace;
 	font-size: 300%;	
-	}
-
-h2  	{
-	color: #000006;
-	font-family:Arial ,Georgia, sans-serif;	
+}
+h2  {
+	color: #FFFF02;
+	font-family:Arial ,Georgia, sans-serif;
 	font-size: 200%;
-	margin: 0% 0% 0% 0%;
 	padding: 0% 0% 3% 0%;
 	text-decoration: underline;	
-	}
-
-h3  	{
-	color: #000010;
+}
+h3  {
+	color: #FFFF03;
 	font-family:Arial ,Georgia, sans-serif;
 	font-size: 150%;
 	padding: 0% 0% 5% 0%;
-	}
-
-h4  	{
-	color: #FFFFFF;
+}
+h4  {
+	color: #000000;
 	font-family:Arial ,Georgia, sans-serif;
 	font-size: 75%;
-	}
-
-h5  	{
-	color: #000001;
+}
+h5  {
+	color: #FFFF05;
 	font-family:Arial ,Georgia, sans-serif;
 	font-size: 100%;
 	padding: 0% 0% 0% 0%;
-	}	
+}	
 	
-
-a	{
+a{
 	font-family:Georgia, Georgia, serif;
-	color: #ffffff;
+	color: #FFFF00;
 	text-shadow: 0em 0.2em 0.3em #888888;
-	}
+}
 
 
 .meny1 A:link {
-		text-decoration: none;
-		color: #ffffff;
-		font-size: 100%;
-	      }	
+text-decoration: none;
+color: #ffff00;
+}
 
 
 .meny2 A:visited {
-		text-decoration: none;
-		color: #ffffff;
-		}
+text-decoration: none;
+color: #ffff00;
+}
 
 .meny3 a:hover {
-		color:#ff0000;
-		}
+color:#ff0000;
+}
 
 
-A:link  {
-	color: #0000ff;
-	}
+A:link {
+color: #ffff00;
+}
 
 A:visited {
-	   color: #0000ff;
-	  }
+color: #ffff00;
+}
 
 a:hover {
-	color:#ff0000;
-	}
+color:#ffffff;
+}
