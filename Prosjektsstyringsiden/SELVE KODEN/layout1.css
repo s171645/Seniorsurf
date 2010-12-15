@@ -1,0 +1,280 @@
+/*	
+	Definer hvordan default skrift skal se ut (farge, bakgrunn, font, størrelse)
+	Marg og padding settes til 0, 'overstyres' i div#
+*/		
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 0.8em;
+	font-family: georgia, times, "times new roman", serif;
+	color: #000;
+	background-color: #ddd;
+}
+
+/*
+	Definer hvordan default linker skal se ut (farge og eventuelt bakgrunnsfarge)
+*/
+
+	/* ubesøkt link*/
+	a:link {
+		color: #ccc;
+	}
+	/* besøkt link */
+	a:visited {
+		color: #aaa;
+	}
+	/* mus over link */
+	a:hover{
+		color: #000;
+	}
+	/* mens museknapp er trykket inn */
+	a:active{
+		color: #fff;
+	}
+		
+		
+/*
+	Sett opp en stil som kan brukes for headingen på siden.
+	Dekker hele bredden i elementet den brukes i, med bakgrunnsbilde, og eventuelt bakgrunnsfarge om bakgrunnsbildet ikke laster.
+	Sentrert tekst, og en kantlinje nederst i samme fargetone som resten av siden.
+*/
+div#header{
+	color: #fff;
+	background-color: #000;
+	border-bottom: 0.2em solid #333;
+	text-align: center;
+	background-image: url(bakgrunntilheader.jpg);
+	background-repeat: repeat-y;
+}
+		
+/*
+	Sett opp en div for h1 for bruk i header
+*/
+div#header h1{
+	margin: 0;
+	padding: .3em 0 .3em .5em;
+	font-family: georgia, times, "times new roman", serif;
+	font-size: 2.8em;
+	font-weight: normal;
+}
+
+/*
+	Sett opp en div for å holde bakgrunnsbilde for menyvenstre og som repeteres nedover (altså yretning) som en 'marg'
+	på venstre del av siden. Bakgrunnsbildet blir området vi plasserer menyen over. Menyens linker osv som skal stå i margen
+	må tilpasses bildet som repeteres nedover.
+*/		
+div#container{
+	background-image: url(columnleftbackground.jpg);
+	background-repeat: repeat-y;
+}
+
+/*
+	Sett opp en div som kan brukes samtidig med den som holder bakgrunnsbildet til menyvenstre (se over) men som istedenfor
+	aligner bakggrunnsbildet til høyre, slik at vi kan plassere en meny eller tillegsinformasjon i høyre del av bildet også.
+	Menyens eller tilleggsinformasjonens linker osv som skal stå i margen til høyre må tilpasses bildet som repeteres nedover.
+*/		
+div#container2{
+	background-image: url(columnrightbackground.jpg);
+	background-repeat: repeat-y;
+	background-position: right;
+}
+		
+/*
+	sett opp en div for å plassere meny til venstre på siden.
+	Legg inn en liten padding over menyen, slik at innholdet i menyen ikke kommer helt opp i header
+	og litt padding til venstre
+*/
+div#menyvenstre{
+	float: left;
+	width: 14em;'
+	margin: 0em 0em 0em 0em;
+	padding: 2em 0em 0em 1em;
+	overflow:auto;
+}
+
+/*
+	sett opp en unordered list for bruk med menyvenstre. List style type none, ie kommer på hver 
+	sin linje uten noen formatering/dropdown
+*/		
+div#menyvenstre ul{
+	list-style-type: none;
+	padding: 0em;
+	/*
+		Nb, husk at margin her er relativt til området som er satt av i menyvenstre,
+		så når man forsøker å sette width i 'ul li a', og så margin her, som til sammen
+		blir bredere enn width i menyvenstre over, så blir margin kuttet av slik at
+		total bredde av 'ul li a' og margin ikke blir større enn menyvenstre sin width...
+	*/
+	margin: 0em 0em 0em 0em;
+}
+
+/*
+	Sett opp en div for hvert element i menyvenstre sin unordered list
+	Legger inn margin-top for å bestemme avstanden mellom hvert element i listen,
+	ie avstanden mellom 'boksene' definert i 'ul li a'
+*/		
+div#menyvenstre ul li{
+	margin-top: 0.5em;
+}
+
+/*
+	Og linker for bruk i menyvenstre
+*/		
+#menyvenstre ul li a{
+	display: block;
+	width: 10em;
+	padding: 0.2em 0.5em 0.2em 0.5em;
+	text-decoration: none;
+	color: #000;
+	background-color: #ccc;
+	background-image: url(linkbgimage.jpg);	
+	background-repeat: repeat-y;
+}
+
+/*
+	Og linker for bruk i menyvenstre, endre utseende når musepekeren flyttes over linken
+*/		
+		
+#menyvenstre ul li a:hover{
+	color: #000;
+	background-color: #444;
+	background-image: url(linkbgimagehover.jpg);
+	background-repeat: repeat-y;
+}
+
+
+/*
+	sett opp en div for å plassere meny/innhold til høyre på siden (bør endre navn på 'menyene' til kolonnevenstre/kolonnehoyre).
+	Legg inn en liten padding over menyen, slik at innholdet i menyen ikke kommer helt opp i header
+	og litt padding til høyre
+*/		
+div#menyhoyre{
+	float: right;
+	width: 12em;
+	margin: 0em 1em 0em 1em;
+	padding: 2em 0em 0em 0em;
+	color: #fff;
+}
+
+/*
+	Definer en header for bruk i menyhøyre
+*/
+div#menyhoyre h3{
+	margin-top: 0;
+	color: #fff;
+	padding: 0em;
+}
+
+/*
+	Vurder å lage ekstra tekstformatering for innholdet i menyhoyre, bruker nå kun default tekst og linkformatering
+*/
+
+
+/*
+	Sett opp formatering og sett av område for hovedinnholdet på hver side. Bruker overflow: auto
+	for å få fram scrollbar om noen elementer i content blir bredere enn tilgjengelig plass når
+	siden klemmes sammen i bredden (sjekk hvordan det man kan gjøre noe lignende for høyden).
+	
+	Forsøkte min-width for å hindre at innholdet ble for smart, kan være dumt for små skjermer,
+	men uten et visst minimum kan siden uansett ikke leses da alt innhold blir borte.
+	Fungerte ikke som forventet, når width ble for smalt så spratt innholdet nederst på siden,
+	må se nærmere på dette. Ville forventet at fordi menyene floater så ville disse bli presset ned.
+	min-width:15em;
+*/
+div#content{
+	margin-left: 16em;
+	margin-right: 16em;
+	line-height: 1.7em;
+	/*min-width:15em;*/
+	overflow:auto;
+}
+
+/*
+	Definer en header for bruk i content
+*/		
+div#content h2{
+	font-size: 2em;
+	color: #036;
+	margin: 0;
+	padding-top: 1em;
+	font-weight: normal;
+}
+
+/*
+	Sett opp en default tabell som vi kan bruke for diverse tabeller hvor formateringen ikke trenger spesielle tilpassninger
+*/		
+table.default {
+	border-width: thin thin thin thin;
+	border-spacing: 0em;
+	border-style: solid solid solid solid;
+	border-color: gray gray gray gray;
+	border-collapse: collapse;
+	background-color: white;
+}
+table.default th {
+	border-width: 0.1em;
+	padding: 0.1em 0.4em 0.1em 0.4em;
+	border-style: dotted dotted dotted dotted;
+	border-color: gray gray gray gray;
+	background-color: #444;
+	-moz-border-radius: 0em;
+}
+table.default td {
+	border-width: 0.1em;
+	padding: 0.1em 0.4em 0.1em 0.4em;
+	border-style: dotted dotted dotted dotted;
+	border-color: gray gray gray gray;
+	background-color: #ccc;
+	-moz-border-radius: 0em;
+}
+
+/*
+	clear both (left/right) tvinger seg nedenfor eventuelle elementer som ligger floatet til feks 
+	høyre eller venstre. Burde kunne brukes for å feks få påfølgende tekst nedenfor et bilde som 
+	er floatet til venstre. Fungerte i IE men ikke i firefox. Brukes nå kun for å få footer nedenfor
+	alle andre elementer på siden. Height 1em gir litt luft før påfølgende element.
+	Må eksperimenter mere for å se om man får det til å fungere på andre ting, og om man kan gjenbruke
+	inne i andre class/id.
+*/		
+#cleardiv{
+	clear: both;
+	height: 1em;
+}
+
+
+/*
+	Sett opp footer
+*/
+
+	/*
+		Bruk clear both (left/right) slik at eventuel annen tekst kommer over eller under footer
+		Fikk litt problemer med ie, mulig det ikke støttes helt.
+		Kantlinje på topp i samme fargetone som resten av siden
+	*/
+	div#footer{
+		clear: both;
+		padding: .5em 1em;
+		border-top: 0.2em solid #333;
+		text-align: right;
+	}
+		
+	/*
+		Sett opp en unordered list for footer som kan brukes til forskjellige linker/tekster
+	*/
+	div#footer ul{
+		padding: 0;
+		margin: 0;
+		list-style-type: none;
+	}
+		
+	/*
+		Sett opp list item for footer for bruk sammen med ul, og bruk inline for å vise på linje med hverandre
+	*/	
+	div#footer li{
+		display: inline;
+		margin-right: 1em;
+	}
+	
+	/*
+		NB, Footer bruker default formateringen for linker og tekst, vurder å sette opp eget om nødvendig.
+	*/

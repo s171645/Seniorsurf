@@ -1,0 +1,1 @@
+		<h2><strong>Velkommen</strong></h2>		<p>			Velkommen til Gruppe 27 sin prosjektside. Denne siden vil bli oppdatert etterhvert som vi jobber med webprosjektet vårt.  		</p>
