@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body { 
+background-color: #000000; }
+
+html {
+  font-size: 100%;
+
+}
+
+
+
+#container {
+	
+	padding: 0% 0% 0% 0%;
+	margin: -1% 8% 2% 8%;
+	background: #ffffff;
+	}
+	
+	
+
+#header { 
+
+
+ padding: 0% 0% 2.5% 5%;
+ background: #ffffff;
+ margin: 1% 0% 0% 0%;
+ background-image: url(pencil1.gif);
+ background-repeat: no-repeat;
+ background-position: top right;
+}
+
+
+
+#meny {
+
+margin: 0% 0% 1% 0%;
+padding:1% 0% 1% 5%;
+background: #777777;
+}
+
+#skrift {
+padding-top:0%;	
+padding-right:0%;	
+padding-bottom:0%;	
+padding-left:85%;	
+}
+#innhold {
+border-bottom:1px solid #000000;	
+}
+
+
+#fontsizer {
+font-size:1.1em;
+margin-right:1em;
+text-align:right;
+vertical-align:bottom;
+}
+
+
+ 
+#main { 
+	margin: 0% 0% 40% 0%;
+	padding: 0% 7% 0% 7%;
+	}
+
+#footer {
+	
+	margin: 0% 0% 0% 0%;
+	padding:1% 5% 1% 5%;
+	background: #777777;
+	}
+ 
+p
+{
+font-family:Arial ,Georgia, sans-serif;
+font-size: 125%;
+}
+
+
+h1 { 
+	padding: 5% 0% 0% 0%;
+    color: #000000;
+	font-family:"Courier New", Courier New, monospace;
+	font-size: 300%;
+	
+	
+	
+}
+
+h2 {
+	color: #000000;
+	font-family:Arial ,Georgia, sans-serif;
+	font-size: 250%;
+	padding: 0% 0% 5% 0%;
+	text-decoration: underline;
+	}
+
+a{
+	font-family:Georgia, Georgia, serif;
+	color: #ffffff;
+	text-shadow: 0em 0.2em 0.3em #888888;
+	
+	
+}
+
+h3 {
+	color: #000000;
+	font-family:"Courier New", Courier New, monospace;
+	font-size: 150%;
+	padding: 0% 0% 5% 0%;
+	}
+h6 {
+	color: #FFFFFF;
+	font-family:"Courier New", Courier New, monospace;
+	font-size: 100%;
+	}
+.meny A:link {
+text-decoration: none;
+color: #ffffff;
+}
+
+
+.meny2 A:visited {
+text-decoration: none;
+color: #ffffff;
+}
+
+.meny3 a:hover {
+      color:#99FF66;
+
+   }
+
+
+
+A:link {
+
+color: #0000ff;
+}
+
+A:visited {
+
+color: #0000ff;
+}
+
+
+
+a:hover {
+      color:#ff0000;
+   }
