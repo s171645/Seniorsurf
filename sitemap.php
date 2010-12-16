@@ -5,7 +5,7 @@ include "topp.html";
 	
 												<!-- Brødtekst -->
 			 <div id="main"> 
-			 <h2> Sitemap </h2>
+			 <h2> Sidekart </h2>
 		
 <ul>		
 <li><p><strong>Hjem:</strong> </p></li>

@@ -6,9 +6,12 @@ include "topp.html";
 												<!-- Brødtekst -->
 			 <div id="main"> 
 			 <h2> Video leksjoner </h2>
-<p>Her ser du hvilken knapp du må trykke på for å få fullskjerm når du spiller av en video: </p>
-<img src="youtube.jpg" alt="** Bilde som viser hvordan man forstørrer">
 
+<img src="youtube.jpg" alt="** Bilde som viser hvordan man forstørrer">
+<p>Når du ser videoer så vises de i et lite vindu på skjermen din.</p>
+<p>Om du trykker på knappen som pilen på bildet her peker på, så økes størrelsen slik at videoen fyller hele skjermen din.</p>
+<p>Når du er ferdig å se videoen, så peker du med musen helt nede i høyre hjørne på skjermen og trykker på krysset som kommer fram.</p>
+<br>
 <p>Videoleksjoner:</p>
 <ul>
    <li>

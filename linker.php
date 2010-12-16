@@ -35,7 +35,7 @@ include "topp.html";
 <strong>Epost:</strong> 
 <div class="katogori">
 <div class="kat">
-<strong>Web baserte:</strong>
+<strong>Nettbaserte:</strong>
 <a href="http://www.hotmail.com">Hotmail </a>
 <a href="https://login.yahoo.com">Yahoo</a>
 <a href="https://my.screenname.aol.com">AOL</a>
