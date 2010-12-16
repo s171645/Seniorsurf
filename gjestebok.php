@@ -1,7 +1,7 @@
 <?php
 include "toppssh.html";
 ?>	
-<div id="main".php>
+<div id="main">
 <p><a href="skrivgjestebok.php" ><strong> Trykk her for å skrive inn ditt eget bidrag.</strong> </a> </p> 
 
 
@@ -43,7 +43,7 @@ foreach ($matrise as $linje)
 	echo "<h2>" . $neste[0] . "</h2>";
 	echo  $neste[1] ;
 	echo  $neste[2] ;	
-	echo "</p>";	
+	echo "<p>";	
 	}
 	
 

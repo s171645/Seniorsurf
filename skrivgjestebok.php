@@ -14,13 +14,20 @@ include "toppssh.html";
 <form action="gjestebok.php" method="post">
 <table border="0">
 <tr>
-	<td><width="150"><p> Skriv inn navnet ditt</p> </td>
-	<td><input type="text" name="navn" value="Anonym"> </td>
+	<td>
+		<p> Skriv inn navnet ditt</p>
+	</td>
+	<td>
+		<input type="text" name="navn" value="Anonym">
+	</td>
 </tr>
 <tr>	
-	<td><width="150"> <p>Skriv ditt bidrag her: </p></td>
-	<td><textarea name="hilsen" cols="50" rows="10">
-	</textarea></td>
+	<td>
+		<p>Skriv ditt bidrag her: </p>
+	</td>
+	<td>
+		<textarea name="hilsen" cols="50" rows="10"></textarea>
+	</td>
 </tr>
 
 <tr>
