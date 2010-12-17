@@ -13,11 +13,20 @@
 	<tr><td>Ansvarkart </td><td>R </td><td>R </td><td>UA </td><td>R </td></tr> 
 	<tr><td>Samarbeidskontrakt </td><td>R </td><td>R </td><td>UA </td><td>R </td></tr> 
 	<tr><td>Innføring av dokumentene </td><td>R </td><td>R </td><td>R </td><td>UA </td></tr>   
+	<tr><td>Beskrive endelig løsning </td><td>R </td><td>R </td><td>UA </td><td>R </td></tr>   
+	<tr><td>Skisse til sluttrapport </td><td>R </td><td>UA </td><td>R </td><td>R </td></tr> 
+	<tr><td>Begrunne designvalget </td><td>R </td><td>R </td><td>R </td><td>UA </td></tr> 
+	<tr><td>Midtveisrapport </td><td>R </td><td>R </td><td>R </td><td>UA </td></tr> 
+	<tr><td>Git </td><td>R </td><td>R </td><td>UA </td><td>R </td></tr>      
+	<tr><td>Oppdatere Seniorsurf </td><td>R </td><td>R </td><td>UA </td><td>UA </td></tr>   
+	<tr><td>Testing </td><td>R </td><td>UA </td><td>UA </td><td>UA </td></tr>  
+	<tr><td>Sluttrapport </td><td>UA </td><td>UA </td><td>UA </td><td>UA </td></tr>
+	<tr><td>Siste leveranse </td><td>UA </td><td>UA </td><td>UA </td><td>UA </td></tr>
+ 
  </table>
 		
 		<p>
-			U- Utfører arbeidsoppgaven <br>
-			A- Arbeidsledelse <br>
-			R- Kan rådspørres <br>
+			UA - Utfører arbeidsoppgaven <br>
+			R - Kan rådspørres <br>
 		</p>
 		
